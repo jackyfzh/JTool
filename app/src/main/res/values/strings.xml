@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JTool</string>
+    <string name="a">搜索</string>
+    <string name="b">输入查询</string>
+    <string name="c">我</string>
+    <string name="start">start</string>
+    <string name="status">状态：</string>
+</resources>
