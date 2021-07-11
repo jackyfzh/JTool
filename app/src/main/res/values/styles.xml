@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="j_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#087CD8</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="j_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#FF9800</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+</resources>

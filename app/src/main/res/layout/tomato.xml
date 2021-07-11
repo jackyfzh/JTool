@@ -10,20 +10,26 @@
 
     <Button
         android:id="@+id/start"
+        style="@style/j_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FF9800"
+        android:backgroundTint="#FFC107"
         android:text="新建番茄" />
 
     <Switch
         android:id="@+id/sw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="5min/25min"
+        android:switchMinWidth="20dp"
+        android:text="休息（默认工作）"
+        android:textSize="30dp"
+        android:thumb="@drawable/gray_thumb"
+        android:track="@drawable/gray_track"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <TextView
         android:id="@+id/status_show"
+        style="@style/j_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/status"

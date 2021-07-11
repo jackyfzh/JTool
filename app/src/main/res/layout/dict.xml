@@ -20,6 +20,7 @@
     <EditText
         android:id="@+id/search"
         android:hint="@string/b"
+        android:maxLines="3"
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@id/search"
         android:layout_width="fill_parent">
